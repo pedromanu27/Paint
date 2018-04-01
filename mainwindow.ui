@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArquivo">
+    <property name="title">
+     <string>Arquivo</string>
+    </property>
+    <addaction name="actionSalvar"/>
+    <addaction name="actionLimpar"/>
+   </widget>
+   <widget class="QMenu" name="menuTamanho_do_Pincel">
+    <property name="title">
+     <string>Tamanho do Pincel</string>
+    </property>
+    <addaction name="action2px"/>
+    <addaction name="action5px"/>
+    <addaction name="action10px"/>
+   </widget>
+   <widget class="QMenu" name="menuCor_do_Pincel">
+    <property name="title">
+     <string>Cor do Pincel</string>
+    </property>
+    <addaction name="actionPreto"/>
+    <addaction name="actionBranco"/>
+    <addaction name="actionVermelho"/>
+    <addaction name="actionVerde"/>
+    <addaction name="actionAzul"/>
+   </widget>
+   <addaction name="menuArquivo"/>
+   <addaction name="menuTamanho_do_Pincel"/>
+   <addaction name="menuCor_do_Pincel"/>
+  </widget>
+  <action name="actionSalvar">
+   <property name="text">
+    <string>Salvar</string>
+   </property>
+  </action>
+  <action name="actionLimpar">
+   <property name="text">
+    <string>Limpar</string>
+   </property>
+  </action>
+  <action name="action2px">
+   <property name="text">
+    <string>2px</string>
+   </property>
+  </action>
+  <action name="action5px">
+   <property name="text">
+    <string>5px</string>
+   </property>
+  </action>
+  <action name="action10px">
+   <property name="text">
+    <string>10px</string>
+   </property>
+  </action>
+  <action name="actionPreto">
+   <property name="text">
+    <string>Preto</string>
+   </property>
+  </action>
+  <action name="actionBranco">
+   <property name="text">
+    <string>Branco</string>
+   </property>
+  </action>
+  <action name="actionVermelho">
+   <property name="text">
+    <string>Vermelho</string>
+   </property>
+  </action>
+  <action name="actionVerde">
+   <property name="text">
+    <string>Verde</string>
+   </property>
+  </action>
+  <action name="actionAzul">
+   <property name="text">
+    <string>Azul</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
